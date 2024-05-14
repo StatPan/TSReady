@@ -1,15 +1,14 @@
 {
-  "name": "asd",
+  "name": "ESNext-TS-Template",
   "version": "1.0.0",
   "description": "",
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc"
+    "main": "npx tsx ./src/main.ts"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "STATPAN",
+  "license": "MIT",
   "devDependencies": {
     "@types/node": "^20.12.12",
     "tsx": "^4.10.2",
