@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+      "target": "ESNext",
+      "module": "ESNext",
+      "strict": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "moduleResolution": "Node",
+      "outDir": "./dist",
+      "allowImportingTsExtensions": true,
+      "noEmit": true,
+      "preserveValueImports": false,
+      "esModuleInterop": true,
+    },
+    "include": ["src/**/*"],           // 컴파일할 파일들의 위치
+    "exclude": ["node_modules"]        // 컴파일에서 제외할 폴더
+  }
+  
