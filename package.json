@@ -1,18 +1,17 @@
 {
-  "name": "tsready",
-  "version": "1.0.0",
-  "description": "",
-  "type": "module",
-  "main": "index.js",
-  "scripts": {
-    "main": "npx tsx ./src/main.ts",
-    "postinstall": "node ./scripts/setup.js"
-  },
-  "author": "STATPAN",
-  "license": "MIT",
-  "devDependencies": {
-    "@types/node": "^20.12.12",
-    "tsx": "^4.10.2",
-    "typescript": "^5.4.5"
+    "name": "create-tsready",
+    "version": "1.0.0",
+    "type": "module",
+    "description": "CLI to initialize a Node.js project with a TypeScript template",
+    "main": "bin/create-tsready.js",
+    "bin": {
+      "create-tsready": "bin/create-tsready.js"
+    },
+    "files": [
+      "bin",
+      "template"
+    ],
+    "author": "STATPAN",
+    "license": "MIT"
   }
-}
+  

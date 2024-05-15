@@ -1,0 +1,22 @@
+{
+  "name": "tsready",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "main": "npx tsx ./src/main.ts"
+  },
+  "files": [
+    "src",
+    "tsconfig.json",
+    "package.json"
+  ],
+  "author": "STATPAN",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "tsx": "^4.10.2",
+    "typescript": "^5.4.5"
+  }
+}
