@@ -5,7 +5,8 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "main": "npx tsx ./src/main.ts"
+    "main": "npx tsx ./src/main.ts",
+    "postinstall": "node ./scripts/setup.js"
   },
   "author": "STATPAN",
   "license": "MIT",
@@ -13,5 +14,8 @@
     "@types/node": "^20.12.12",
     "tsx": "^4.10.2",
     "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "tsready": "^1.0.0"
   }
 }
