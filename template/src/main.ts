@@ -1,4 +1,3 @@
-import { helloNaver } from "./util.ts";
-const url = "http://www.naver.com"
-const res = await helloNaver(url)
+import { helloWorld } from "./util.ts";
+const res = await helloWorld()
 console.log(res)

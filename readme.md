@@ -12,7 +12,7 @@
 - Offers the benefit of using `await` at the top-level.
 
 ## How to Run the Program
-Execute the following command to run `main.ts` located under the `src` directory. The code makes a simple request stored inside `util` and outputs the result as a string.
+Execute the following command to run `main.ts` located under the `src` directory. The code makes a simple import stored inside `util` and outputs the result as a string.
 ```bash
 npm run main
 ```
