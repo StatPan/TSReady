@@ -11,8 +11,9 @@
       "noEmit": true,
       "preserveValueImports": false,
       "esModuleInterop": true,
+      
     },
-    "include": ["template/src/**/*"],           // 컴파일할 파일들의 위치
-    "exclude": ["node_modules"]        // 컴파일에서 제외할 폴더
+    "include": ["src/**/*"],
+    "exclude": ["node_modules"]        
   }
   
