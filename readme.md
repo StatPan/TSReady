@@ -10,9 +10,10 @@
 - Operates based on ESNext standards for TypeScript.
 - Enables writing code in the style of `import ~ from "./util.ts"` (similar to Python).
 - Offers the benefit of using `await` at the top-level.
+- Includes ESLint for maintaining code quality and consistency.
 
 ## How to Run the Program
-Execute the following command to run `main.ts` located under the `src` directory. The code makes a simple import stored inside `util` and outputs the result as a string.
+Execute the following command to run `main.ts` located under the `src` directory. The code makes a simple request stored inside `util` and outputs the result as a string.
 ```bash
 npm run main
 ```
@@ -41,18 +42,33 @@ my-new-project/
 │   └── main.ts
 │   └── util.ts
 ├── tsconfig.json
+├── .eslintrc.json
+├── .eslintignore
 └── package.json
 ```
 
 - src/main.ts: The main TypeScript entry file.
 - src/util.ts: some util function file to import.
 - tsconfig.json: TypeScript compiler configuration file.
+- .eslintrc.json: ESLint configuration file.
+- .eslintignore: Files and directories to ignore for ESLint.
 - package.json: Project's npm configuration file.
 
 ## Start the Project
 Once the project is set up, you can start it with:
 ```bash
 npm run main
+```
+
+## Running EsLint
+To check for code quality and consistency using ESLint, run the following command:
+```bash
+npx eslint src/**/*.ts
+```
+
+To automatically fix issues that can be resolved, run:
+```bash
+npx eslint src/**/*.ts --fix
 ```
 
 ## Contributing
