@@ -1,6 +1,6 @@
 {
     "name": "create-tsready",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "type": "module",
     "description": "CLI to initialize a Node.js project with a TypeScript template",
     "main": "bin/create-tsready.js",
@@ -9,7 +9,10 @@
     },
     "files": [
         "bin",
-        "template"
+        "template",
+        ".npmignore",
+        "package.json",
+        "readme.md"
     ],
     "keywords": [
         "tsready",
@@ -20,7 +23,7 @@
     ],
     "homepage": "https://github.com/StatPan/TSReady",
     "repository": {
-        "url": "git+https://github.com/StatPan/TSReady.git"
+        "url": "https://github.com/StatPan/TSReady.git"
     },
     "engines": {
         "node": "20.11.1"
