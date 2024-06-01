@@ -1,6 +1,6 @@
 {
     "name": "create-tsready",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "type": "module",
     "description": "CLI to initialize a Node.js project with a TypeScript template",
     "main": "bin/create-tsready.js",
