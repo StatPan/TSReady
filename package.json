@@ -5,17 +5,26 @@
     "description": "CLI to initialize a Node.js project with a TypeScript template",
     "main": "bin/create-tsready.js",
     "bin": {
-      "create-tsready": "bin/create-tsready.js"
+        "create-tsready": "bin/create-tsready.js"
     },
     "files": [
-      "bin",
-      "template"
+        "bin",
+        "template"
     ],
-    "keywords": ["tsready","template","ESNext","starter","typescript"],
+    "keywords": [
+        "tsready",
+        "template",
+        "ESNext",
+        "starter",
+        "typescript"
+    ],
     "homepage": "https://github.com/StatPan/TSReady",
-    "repository": {"url": "https://github.com/StatPan/TSReady"},
-    "engines": {"node": "20.11.1"},
+    "repository": {
+        "url": "git+https://github.com/StatPan/TSReady.git"
+    },
+    "engines": {
+        "node": "20.11.1"
+    },
     "author": "STATPAN",
     "license": "MIT"
-  }
-  
+}
