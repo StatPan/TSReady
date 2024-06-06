@@ -1,6 +1,0 @@
-node_modules/
-test
-logs
-.DS_Store
-.env
-template/node_modules/
