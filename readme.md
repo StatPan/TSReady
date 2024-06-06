@@ -40,7 +40,6 @@ After creating a new project, the directory structure will be as follows:
 my-new-project/
 ├── src/
 │   └── main.ts
-│   └── util.ts
 ├── tsconfig.json
 ├── .eslintrc.json
 ├── .eslintignore
@@ -48,7 +47,6 @@ my-new-project/
 ```
 
 - src/main.ts: The main TypeScript entry file.
-- src/util.ts: some util function file to import.
 - tsconfig.json: TypeScript compiler configuration file.
 - .eslintrc.json: ESLint configuration file.
 - .eslintignore: Files and directories to ignore for ESLint.
